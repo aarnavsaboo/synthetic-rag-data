@@ -34,7 +34,8 @@ class Tests(unittest.TestCase):
             2,
         )
         self.assertEqual(len(rows), 2)
-        self.assertTrue(all("difficulty" in row for row in rows))\n        self.assertEqual(len({row["query_hash"] for row in rows}), 2)
+        self.assertTrue(all("difficulty" in row for row in rows))
+        self.assertEqual(len({row["query_hash"] for row in rows}), 2)
         self.assertTrue(all(row["generator_model"] == "local-test" for row in rows))
 
 
