@@ -1,0 +1,8 @@
+{
+  "model": "qwen3:4b",
+  "modes": ["direct", "paraphrase", "underspecified", "multi-fact"],
+  "questions_per_mode": 3,
+  "sample_every": 1,
+  "max_source_chars": 3000,
+  "splits": {"train": 0.8, "dev": 0.1, "test": 0.1}
+}
