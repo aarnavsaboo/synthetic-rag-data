@@ -1,0 +1,2 @@
+{"id":"retrieval-1","text":"Reciprocal-rank fusion combines rankings by adding a score based on each item's rank in each list."}
+{"id":"context-1","text":"A larger context window increases capacity but does not guarantee that a model will use evidence equally well at every position."}

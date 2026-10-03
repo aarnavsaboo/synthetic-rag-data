@@ -1,0 +1,14 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "synthetic-rag-data"
+version = "0.1.0"
+requires-python = ">=3.10"
+
+[project.scripts]
+synthetic-rag-data = "synthetic_rag_data.__main__:main"
+
+[tool.setuptools.packages.find]
+include = ["synthetic_rag_data*"]
